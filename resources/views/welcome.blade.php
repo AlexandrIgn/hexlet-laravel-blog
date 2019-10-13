@@ -64,6 +64,8 @@
         </style>
     </head>
     <body>
+    <a href="/about">О блоге</a>
+     <a href="{{ route('articles.index') }}">Статьи</a>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
